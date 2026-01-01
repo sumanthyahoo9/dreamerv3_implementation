@@ -1,0 +1,43 @@
+# DreamerV3 Implementation Requirements
+
+# Core ML Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# RL Environments
+gymnasium>=0.29.0
+gym[atari]>=0.26.0
+gym[accept-rom-license]>=0.26.0
+ale-py>=0.8.0
+
+# Additional environments (optional)
+# dm-control>=1.0.0  # DeepMind Control Suite
+# procgen>=0.10.7    # ProcGen environments
+
+# Numerical computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.13.0
+
+# Video recording
+opencv-python>=4.8.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+wandb>=0.15.0  # For experiment tracking (optional)
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
