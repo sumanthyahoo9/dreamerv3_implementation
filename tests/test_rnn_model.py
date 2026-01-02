@@ -2,7 +2,6 @@
 Unit test for the RNN model
 """
 import torch
-import torch.nn as nn
 from src.rnn_model import RecurrentModel
 
 def test_rnn_model():
