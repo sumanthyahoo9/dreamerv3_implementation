@@ -2,7 +2,7 @@
 Unit test for the Encoder module
 """
 import torch
-from scripts.encoder import Encoder
+from src.encoder import Encoder
 
 def test_encoder_shape():
     """
