@@ -21,6 +21,7 @@ class ActorNetwork(nn.Module):
             nn.ReLU(),
             nn.Linear(hidden_dim, action_dim)
         )
+        self.action_dim = action_dim
     
     def forward(self, h_t, z_t):
         """
